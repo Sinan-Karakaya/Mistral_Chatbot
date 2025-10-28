@@ -55,7 +55,7 @@ export default function ChatWindow({
                 '💡 Explain quantum computing',
                 '🎨 Write a creative story',
                 '📊 Analyze data trends',
-                '🔍 Search the web for news',
+                '🔍 How do computers work',
               ].map((suggestion, idx) => (
                 <motion.button
                   key={idx}

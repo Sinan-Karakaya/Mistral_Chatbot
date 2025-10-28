@@ -188,8 +188,8 @@ export default function SettingsPanel({
               <div className='pt-4 border-t-[3px] border-beige-400 dark:border-stone-700'>
                 <p className='text-xs text-beige-700 dark:text-beige-500 leading-relaxed'>
                   This chatbot supports streaming responses, markdown
-                  formatting, syntax highlighting, file uploads, and tool
-                  calling (web search). Powered by Mistral AI.
+                  formatting, syntax highlighting, file uploads.
+                  Powered by Mistral AI.
                 </p>
               </div>
             </div>
