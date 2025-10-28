@@ -4,6 +4,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,6 +41,7 @@ export default function RootLayout({
         <QueryClientProvider client={queryClient}>
           {children}
         </QueryClientProvider>
+        <Analytics />
       </body>
     </html>
   )
