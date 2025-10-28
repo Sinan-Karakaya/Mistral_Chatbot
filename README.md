@@ -4,6 +4,8 @@ This project is a chatbot UI using the Mistral API, and is submitted as a projec
 This project was realised in around 1h30~2h. With a strong background in creating UI that connects to LLM APIs professionnally,
 I could re-use a lot of my existing knowledge and try to go beyond what I've done in the past.
 
+The project is deployed and available [here](https://mistral-chatbot-zeta.vercel.app/).
+
 ## Features
 
 This chatbot supports:
